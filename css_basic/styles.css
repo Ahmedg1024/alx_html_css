@@ -29,7 +29,6 @@ header{
     display: flex;
     flex-direction: row;
     font-size: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: dodgerblue;
     align-items: center;
 }
