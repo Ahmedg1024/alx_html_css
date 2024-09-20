@@ -19,7 +19,17 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
-header li.logo {
+header>li.logo {
     position: top left;
 
+}
+header{
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    align-items: center;
 }
