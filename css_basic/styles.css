@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     display: flex;
@@ -10,6 +13,7 @@ main {
 article{
     flex: 2;
     overflow-y: auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 aside{
     flex: 1;
