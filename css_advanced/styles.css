@@ -251,6 +251,7 @@ span{
 /*FAQ_section*/
 .faq{
     color: #071629;
+    margin: 50px 0;
 
 }
 .faq >h2{
@@ -281,4 +282,42 @@ span{
     font-size: 14px;
     margin-bottom: 30px;
     padding-right: 30px;
+}
+/*footer style*/
+footer{
+    height: 240px;
+    background-color: #071629;
+    text-align: center; 
+    
+}
+
+.footer_logo{
+    display: flex;
+    align-content: center;
+    margin: 80px;
+    justify-content: center; 
+    
+}
+.icons{
+    justify-items: flex-end;
+    margin-left: 580px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#footer_part{
+    align-content: center;
+    
+}
+.fa-facebook{
+    height: 30px;
+    padding: 4px; 
+    border-radius: 20px;
+}
+.fa-twitter{
+    height: 30px;
+    padding: 4px;
+}
+.fa-instagram{
+    height: 30px;
+    padding: 4px;
 }
