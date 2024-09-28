@@ -6,7 +6,6 @@ body{
 header{
     background-image: url(images/headphones_hero_1.jpg);
     height: 100vh;
-    width: 100vw;
     background-size: cover;
     line-height: 1.5;
 }
@@ -14,7 +13,7 @@ header{
 
 nav{
     height: 7rem;   
-    margin: 1rem 15rem;
+    margin: 0rem 15rem;
     align-items: center;
     display: flex;
 
@@ -44,25 +43,49 @@ nav img{
     align-items: center;
     padding: 0  30rem;
     color: white;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 #leading_text{
-    font-size: .9rem;   
+    font-size: .9rem;
+    margin: auto;   
 }
 
 #leading_title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
-
+    padding-top: 1rem;
+}
+#leading_title_sub{
+    font-size: 0.8rem;
 }
 .leading_sec a{
     background-color: #FF6565;
     color: white;
     text-decoration: none;
-    padding: .5rem 1rem;
+    padding: .5rem 1rem ;
     border-radius: 1.5rem;
     width: fit-content;
     text-align: center;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 4rem;
+    margin-top: 2rem;
 }
+
+/*main content (what we do section) */
+
+.what_we_do{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+.what_we_do h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    height: auto;
+}
+.what_we_do p{
+    font-size: 1rem;
+}
+
