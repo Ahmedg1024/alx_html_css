@@ -119,3 +119,55 @@ nav img{
     font-size: .7rem;
     line-height: 1.5;
 }
+/* Results*/
+
+.results{
+    background-image: url("images/headphones_hero_2.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+}
+.results h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+
+    padding-top: 12rem;
+}
+.results p{
+    width: 40%;
+    margin: auto;
+    font-size: 0.9rem;
+    
+}
+.results_cards{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3rem;
+}
+.result_card{
+    width: 15%;
+    position: relative;
+    text-align: center;
+}
+.result_card h4{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.result_card p{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: .6rem;
+}
+.result_card img{
+    height: 10rem;
+}
