@@ -89,3 +89,33 @@ nav img{
     font-size: 1rem;
 }
 
+/* media sec*/
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 20%;
+    
+}
+.card img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.card {
+    width: 15%;
+    text-align: center;
+    height: max-content;
+}
+.card h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    padding-bottom: 1rem;
+
+}
+.card p{
+    font-size: .7rem;
+    line-height: 1.5;
+}
