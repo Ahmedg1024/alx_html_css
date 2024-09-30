@@ -69,6 +69,18 @@ nav img{
     margin-bottom: 4rem;
     margin-top: 2rem;
 }
+nav>a:hover{
+    color: #FF6565;
+} 
+nav>a:active{
+    color: #FF6565;
+}
+.leading_sec>a:hover{
+    opacity: 0.9;
+}
+.leading_sec>a:active{
+    opacity: 0.9;
+}
 
 /*main content (what we do section) */
 
@@ -192,21 +204,6 @@ nav img{
     margin: auto;
     width: 20%;
 }
-/*
-.name_entered{
-    display: flex;
-    margin-bottom: 2rem;
-}
-.email_entered{
-    display: flex;
-    margin-bottom: 2rem;
-}
-.message_entered{
-    display: flex;
-    margin-bottom: 2rem;
-    color: black;
-}
-*/
 #name{
     width: 100%;
     border-bottom: 0.5px solid black;
@@ -251,4 +248,45 @@ nav img{
 ::placeholder{
     color: black;
     opacity: 1.0;
+}
+
+footer{
+    background-color: #071629;
+    justify-content: center;
+}
+
+#social_icons{
+    width: 60%;
+    display: flex;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+footer img{
+    height: 30px;
+}
+#facebook {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+}
+#twitter, #insta {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8vmin;
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 480px){
+    
 }
